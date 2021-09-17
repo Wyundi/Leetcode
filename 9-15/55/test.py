@@ -1,7 +1,3 @@
-nums = [2, 0, 0]
-nums = [3,2,1,0,4]
-
-
 def canJump(nums):
 
     """
