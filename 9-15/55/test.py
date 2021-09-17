@@ -21,8 +21,6 @@ def canJump(nums):
 
     return True
 
-# print(canJump(nums))
-
 if __name__ == '__main__':
     import doctest
     doctest.testmod(verbose = True)
