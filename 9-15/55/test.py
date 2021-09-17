@@ -3,6 +3,14 @@ nums = [3,2,1,0,4]
 
 
 def canJump(nums):
+
+    """
+    >>> canJump([2, 0, 0])
+    True
+    >>> canJump([3, 2, 1, 0, 4])
+    False
+    """
+
     sumStep = 0
     if len(nums) <= 1:
         return True
@@ -17,4 +25,8 @@ def canJump(nums):
 
     return True
 
-print(canJump(nums))
+# print(canJump(nums))
+
+if __name__ == '__main__':
+    import doctest
+    doctest.testmod()
